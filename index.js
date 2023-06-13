@@ -139,7 +139,7 @@ console.log("convertToExponential(42)", convertToExponential(42)); // Вивед
 
 function convertToFixed(num, precision) {
 	// Використовуємо метод toFixed(), щоб конвертувати число в рядок з фіксованою кількістю знаків після коми
-	console.log(num.toFixed(2));
+	console.log(num.toFixed(precision));
 }
 
 console.log("Завдання 10 ====================================");
